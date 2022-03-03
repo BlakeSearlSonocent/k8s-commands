@@ -19,6 +19,10 @@ A cheatsheet of kubernetes commands
 
 `kubectl run <pod-name> --image=<image-name> -l=<label-1>=<val1>,<label-2>=<val2>`
 
+`kubectl run <pod-name> --image=<image-name> --port=<container-port>`
+
+`kubectl run <pod-name> --image=<image-name> --port=<service-port> --expose` - Create pod and expose using service of type ClusterIP of same name with target port x
+
 
 ## DEPLOYMENTS
 
@@ -30,3 +34,8 @@ A cheatsheet of kubernetes commands
 ## NAMESPACES
 
 `kubectl get ns`
+
+
+## SERVICES
+
+`kubectl expose <resource-type> <resource-name> --port=<exposed-port> --name=<service-name>`
