@@ -38,6 +38,8 @@ A cheatsheet of kubernetes commands
 
 ## SERVICES
 
+`kubectl get svc`
+
 `kubectl expose <resource-type> <resource-name> --port=<exposed-port> --name=<service-name>`
 
 
@@ -49,3 +51,13 @@ A cheatsheet of kubernetes commands
 ## SECRETS
 
 `kubectl create secret <secret-type> <secret-name> --from-literal=<key1>=<value1> --from-literal=<key2>=<value2>...`
+
+
+## NETWORK POLICIES
+
+`kubectl get netpol`
+
+
+## INGRESS
+
+`kubectl get ingress`
