@@ -82,3 +82,13 @@ A cheatsheet of kubernetes commands
 ## INGRESS
 
 `kubectl get ingress`
+
+
+## PERSISTENT VOLUME
+
+`kubectl get pv`
+
+
+## PERSISTENT VOLUME CLAIM
+
+`kubectl get pvc`
