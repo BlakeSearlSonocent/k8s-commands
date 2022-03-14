@@ -31,6 +31,27 @@ A cheatsheet of kubernetes commands
 `kubectl create deploy <deployment-name> --image=<image-name> --replicas=<replica-count> --dry-run=client -o yaml > <target-file.yaml>`
 
 
+## JOBS
+
+`kubectl create job <job-name> --image <image-name>`
+
+
+## CRON JOBS
+
+`kubectl create cronjob <cronjob-name> --image <image-name> --scheulde "30 21 * * *"`
+
+
+## ROLLOUTS + DEPLOYMENTS
+
+`kubectl rollout status deploy/<deploymment-name>`
+
+`kubectl rollout history deploy/<deployment-name>`
+
+`kubectl rollout undo deploy/<deployment-name>`
+
+`kubectl edit deploy <deploy-name>`
+
+
 ## NAMESPACES
 
 `kubectl get ns`
