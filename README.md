@@ -92,3 +92,8 @@ A cheatsheet of kubernetes commands
 ## PERSISTENT VOLUME CLAIM
 
 `kubectl get pvc`
+
+
+## STORAGE CLASS
+
+`kubectl get sc`
