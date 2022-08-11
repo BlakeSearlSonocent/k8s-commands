@@ -97,3 +97,12 @@ A cheatsheet of kubernetes commands
 ## STORAGE CLASS
 
 `kubectl get sc`
+
+
+## RBAC/ROLES
+
+`kubectl get roles`
+
+`kubectl get rolebindings`
+
+`kubectl can-i <verb> <resource>`
