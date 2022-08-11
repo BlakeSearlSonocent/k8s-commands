@@ -105,4 +105,6 @@ A cheatsheet of kubernetes commands
 
 `kubectl get rolebindings`
 
-`kubectl can-i <verb> <resource>`
+`kubectl auth can-i <verb> <resource>`
+
+`kubectl auth can-i <verb> <resource> --as <user>`
