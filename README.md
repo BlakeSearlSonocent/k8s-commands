@@ -110,3 +110,7 @@ A cheatsheet of kubernetes commands
 `kubectl auth can-i <verb> <resource> --as <user>`
 
 `kubectl config view`
+
+`kubectl create role <role-name> --verb=list,create,delete --resource=pods`
+
+`kubectl create rolebinding <binding-name> --role=<role-name> --user=<user-name>`
