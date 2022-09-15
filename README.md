@@ -6,6 +6,7 @@ A cheatsheet of kubernetes commands
 
 `kubectl get all -A | grep -i <something>`
 
+`kubectl api-resources`
 
 ## PODS
 
@@ -114,3 +115,11 @@ A cheatsheet of kubernetes commands
 `kubectl create role <role-name> --verb=list,create,delete --resource=pods`
 
 `kubectl create rolebinding <binding-name> --role=<role-name> --user=<user-name>`
+
+`kubectl get clusterrole`
+
+`kubectl get clusterrolebinding`
+
+`kubectl create clusterrole <role-name> --verb=get,list,create,watch,delete --resource=nodes`
+
+`kubectl create clusterrolebinding <binding-name> --role=<role-name> --user=<user-name>`
