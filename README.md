@@ -123,3 +123,13 @@ A cheatsheet of kubernetes commands
 `kubectl create clusterrole <role-name> --verb=get,list,create,watch,delete --resource=nodes`
 
 `kubectl create clusterrolebinding <binding-name> --role=<role-name> --user=<user-name>`
+
+## HELM
+
+`helm install <application-name>`
+
+`helm upgrade <application-name>`
+
+`helm rollback <application-name>`
+
+`helm uninstall <application-name>`
